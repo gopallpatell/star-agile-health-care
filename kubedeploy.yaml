@@ -27,6 +27,7 @@ metadata:
   name: healthcare-service
   labels:
     app: healthcare-app
+    tier: prod
 spec:
   selector:
     app: healthcare-app
