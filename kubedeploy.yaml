@@ -4,6 +4,7 @@ metadata:
   name: healthcare-deploy
   labels:
     app: healthcare-app
+    tier: prod
 spec:
   replicas: 3
   selector:
