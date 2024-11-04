@@ -5,7 +5,8 @@
   tasks: 
     - name: Update apt
       command: apt-get update
-
+      become_user: root
+      
     - name: Install Docker
       command: apt-get install -y docker.io
       become: yes
