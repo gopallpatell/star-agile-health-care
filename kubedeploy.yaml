@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: healthcare-container
-        image: gopallpatell/helth:v1.0
+        image: gopallpatell/medicure:v1.0
         ports:
         - containerPort: 8082
 ---
