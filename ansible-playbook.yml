@@ -23,6 +23,6 @@
       become_user: root
 
     - name: Deploy Docker container
-      command: docker run -itd -p 8084:8082 gopallpatell/medicure:v1.0
+      command: docker run -itd -p 8089:8082 gopallpatell/medicure:v1.0
       become: yes
       become_user: root
